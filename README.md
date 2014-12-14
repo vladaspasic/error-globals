@@ -1,4 +1,4 @@
-error-globals [![Build Status](https://travis-ci.org/vladaspasic/error-globals.svg?branch=master)](https://travis-ci.org/vladaspasic/error-globals) [![Coverage Status](https://img.shields.io/coveralls/vladaspasic/error-globals.svg)](https://coveralls.io/r/vladaspasic/error-globals?branch=master)
+error-globals [![NPM version](https://img.shields.io/npm/v/error-globals.svg)](https://img.shields.io/npm/v/error-globals.svg) [![Build Status](https://travis-ci.org/vladaspasic/error-globals.svg?branch=master)](https://travis-ci.org/vladaspasic/error-globals) [![Coverage Status](https://img.shields.io/coveralls/vladaspasic/error-globals.svg)](https://coveralls.io/r/vladaspasic/error-globals?branch=master)
 =============
 
 This module comes with a whole list of various HTTP Errors that can be exposed to the global scope if needed. Each can be thrown with a cause Error, so you can easily stack errors as you catch them.
