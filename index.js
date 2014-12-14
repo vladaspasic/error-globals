@@ -3,12 +3,6 @@
 var factory = require('./lib/error'),
 	defaults = require('./lib/defaults');
 
-var typeError = new Error('Bad type %s.', typeof prop);
-
-console.log(typeof typeError);
-
-console.log(typeError instanceof defaults.DatabaseError);
-
 /**
  * Exposes the default Errors to the global scope.
  */
